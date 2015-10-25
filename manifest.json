@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Reading Haven",
+	"version": "0.1",
+
+	"description": "An extension for reading on royal road",
+
+	"content_scripts": [
+		{
+			"matches": ["*://royalroadl.com/forum/*"],
+			"js": ["jquery-2.1.4.js", "reader.js"],
+			"css": ["reader.css"]
+		}
+	]
+}
