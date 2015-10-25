@@ -4,6 +4,7 @@
 	"version": "0.1",
 
 	"description": "An extension for reading on royal road",
+	"icons": {"128": "ReadingHavenIcon.png"},
 
 	"content_scripts": [
 		{
