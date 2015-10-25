@@ -11,5 +11,8 @@
 			"js": ["jquery-2.1.4.js", "reader.js"],
 			"css": ["reader.css"]
 		}
-	]
+	],
+	"browser_action": {
+		"default_icon": "ReadingHavenIcon.png"
+	}
 }
