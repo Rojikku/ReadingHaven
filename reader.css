@@ -1,7 +1,12 @@
 .x3mod, .spoiler_body, .spoiler_header, table {
-    margin-left: 100px;
-    margin-right: 100px;
-    color: #FF9898 !important;
-    background: black !important;
-    background-color: black !important;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 35px !important;
+  font: 35px Times New Roman !important;
+  font-weight: 400 !important;
+}
+* {
+  color: #FF98BA !important;
+  background: black !important;
+  background-color: black !important;
 }
