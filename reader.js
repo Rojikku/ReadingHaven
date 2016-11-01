@@ -32,14 +32,16 @@ $(document).ready(function() {
   
   
   
-  $("div.postbit_content").click(function() {
-    $("body").html($(this).html());
-    $("body").addClass("x3mod");
+  $("div.portlet-body").click(function() {
     var Title = $("title").text();
-    $("head").html("<title>" + Title + "</title>");
+    $("span").css("font", "");
+    $("span").css("color", "");
+    $("p").removeAttr("style");
+    $("font").removeAttr("size");
     $("a").attr('target', '_parent');
-    CoreX3 = $(".x3mod").html();
-    BookieX3 = RefX3;
-    BmkFind();
-  });
+    var Want = $(this).html();
+    $("html").html("<head><title>"+Title+"</title></head><body>test</body>");
+    $("body").attr("class", "x3mod");
+    $("body").html(Want);
+  }); 
 });

@@ -8,7 +8,7 @@
 
 	"content_scripts": [
 		{
-			"matches": ["*://royalroadl.com/forum/*"],
+			"matches": ["*://royalroadl.com/fiction/*"],
 			"js": ["jquery-2.2.4.js", "reader.js"],
 			"css": ["reader.css"]
 		},
